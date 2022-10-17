@@ -2,7 +2,7 @@
 import network
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
-wlan.connect('PrivatenetworkDL', 'miatamiata')
+wlan.connect('SSID', 'password')
 
 # Make GET request
 # Get Metar from aviationweather.gov for EFJY
